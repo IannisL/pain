@@ -1,0 +1,85 @@
+body {
+    background-color: rgb(25, 95, 95);
+}
+
+
+.container {
+    background-color: rgb(63, 68, 68);
+}
+
+.boxxxy {
+    border: 8px rgb(22, 46, 73) solid;
+    padding: 10px;
+    margin: 5px;
+    display: flex;
+    justify-content: space-between;
+    flex-flow: row wrap;
+    align-content: center;
+    background-color: rgb(79, 52, 105);
+}
+
+#basic {
+    display: flex;
+    flex-direction: column;
+    width: 55%;
+}
+
+#addy {
+    display: flex;
+    flex-direction: row;
+}
+
+#addy div {
+    margin: 6px;
+    padding: 6px;
+}
+
+header,
+#basic,
+#addy {
+    text-align: left;
+}
+
+.title,
+#basic,
+#addy,
+#picture {
+    border: 5px rgb(40, 123, 134) solid;
+    padding: 1px;
+    margin: 3%;
+    display: flex;
+
+
+}
+
+aside {
+    width: 20%;
+
+}
+
+section {
+    width: 80%;
+}
+
+#center {
+    display: flex;
+
+
+}
+
+.insidebar {
+    background-color: rgb(38, 39, 39);
+    width: 100%;
+    height: 20px;
+    color: rgb(7, 7, 7);
+}
+
+#bar1 {
+    background-color: aqua;
+    width: 50%;
+}
+
+#bar2 {
+    background-color: rgb(45, 247, 5);
+    width: 25%;
+}
